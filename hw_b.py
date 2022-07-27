@@ -81,7 +81,7 @@ print(smallest)
 lottery_numbers = users["Avril"]["lottery_numbers"]
 even_nums = []
 for lottery_number in lottery_numbers:
-     if lottery_number % 2 == 0:
+     if lottery_number % 2 == 0: # looks for numbers with no remainder to seek out odd
          even_nums.append(lottery_number)
 
 print(even_nums)
@@ -107,7 +107,7 @@ users["mac"] = {
      "twitter": "MacMiller",
      "lottery_numbers": [92, 2, "infinity"],
      "home_town": "Pittsburgh",
-     "pets": [
+     "pets": [ #initialises a list within a dictionary
        {
          "name": "Ralphie",
          "species": "dog"
